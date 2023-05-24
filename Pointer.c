@@ -54,7 +54,7 @@ int main(){
     int **ptp=&ptr2;
     //int **ptp=&ptr2;
 
-    printf("Gia tri cua *ptp = %d\n",**ptp);
+    printf("Gia tri cua ptp = %d\n",**ptp);
     //printf("Gia tri cua **ptp = %d\n",**ptp);
 
 
