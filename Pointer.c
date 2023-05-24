@@ -44,10 +44,10 @@ int main(){
     printf("Gia tri cua d = %c\n",*(char*)ptr1);
 
 //Point to Point:
-    char *arry="Hello";
-    char arry1[]="Hello";
-    char *arry2[]={"Hi", "Hello", "Word"};
-    printf("test:%c\n",**(arry2+2));
+    char *array="Hello";
+    char array1[]="Hello";
+    char *array2[]={"Hi", "Hello", "Word"};
+    printf("test:%c\n",**(array2+2));
 
     int a=27;
     int *ptr2=&a;
