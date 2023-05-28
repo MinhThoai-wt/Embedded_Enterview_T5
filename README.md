@@ -1,6 +1,9 @@
 # Embedded_Enterview_T5
 # Buổi 1. Complier
 
+[!FAQ]- Các callout có thể thu gọn được không?
+`Có! Callout có thể được thu gọn, khi đó nội dung chính sẽ bị ẩn cho đến khi bạn click vào để mở rộng.`
+
 Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C++, Pascal, Java, C#…) sang ngôn ngữ đích (ngôn ngữ máy) để máy tính có thể hiểu và thực thi. Ngôn ngữ lập trình C là một ngôn ngữ dạng biên dịch. Chương trình được viết bằng C muốn chạy được trên máy tính phải trải qua một quá trình biên dịch để chuyển đổi từ dạng mã nguồn sang chương trình dạng mã thực thi. Quá trình được chia ra làm 4 giai đoạn chính:
 
 •	Giai đoạn tiền xử lý (Pre-processor)
