@@ -5,7 +5,7 @@
 Một khu vườn xinh đẹp nhờ có những hạt giống tốt lành, vì vậy hãy bắt đầu bằng cách gieo trồng những ý tưởng thú vị, sáng suốt và hữu ích nhất mà chúng ta có thể tìm thấy vào khu vườn tri thức của mình. 
 \- Tiago Forte | Building a second brain
 
-Chú thích[^1] chú thích[^2].
+Chú thích [1] chú thích[^2].
 
 - [^1]: chú thích 1
 - [^2]: chú thích 2
