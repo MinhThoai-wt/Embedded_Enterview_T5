@@ -46,6 +46,7 @@ Ví dụ: chỉ thị #include cho phép ghép thêm mã chương trình của m
 1. Các vùng bộ nhớ
 ![Ảnh chụp màn hình 2023-05-28 174924](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/76844c88-64db-47fd-bfba-2e082b405190)
 
+
 •	Text :
 
 – Quyền truy cập chỉ Read và nó chưa lệnh để thực thi nên tránh sửa đổi instruction.
