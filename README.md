@@ -13,6 +13,8 @@ Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C+
 
 ![Ảnh chụp màn hình 2023-05-27 192617](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/442333e5-791a-4e2c-a701-8d5be17959e9)
 
+
+
 1. Giai đoạn tiền xử lý – Preprocessor
 
 •	Nhận mã nguồn
