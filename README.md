@@ -6,9 +6,12 @@ Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C+
 •	Giai đoạn dịch NNBC sang Asembly (Compiler)
 •	Giai đoạn dịch asembly sang ngôn ngữ máy (Asember)
 •	Giai đoạn liên kết (Linker)
+ihinifwieffnweif
+niniwenfiwenfinw
+nihbfihbweihfbiwebfih
+niwhfihbweihbwiebfi
 
 1. Giai đoạn tiền xử lý – Preprocessor
-Nhận mã nguồn
 Nhận mã nguồn
 Xóa bỏ tất cả chú thích, comments của chương trình
 Chỉ thị tiền xử lý (bắt đầu bằng #) cũng được xử lý
