@@ -109,5 +109,7 @@ Heap: Vùng nhớ Heap được quản lý bởi lập trình viên (trong C ho�
 
 ![Ảnh chụp màn hình 2023-05-28 174924](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/76844c88-64db-47fd-bfba-2e082b405190)
 
+# Buổi 3. Thao tác bit
+
 
 
