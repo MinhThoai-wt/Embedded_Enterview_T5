@@ -156,6 +156,33 @@ AND: x=y & z;
 
 ![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/1d37cefe-3834-4194-9e9c-40463a3904de)
 
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/66ffd02c-169b-4ade-ae6f-504f36f0f902)
+
+NOT: x=~y;
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/af8d5aa9-ed86-4aa2-93f3-c630159b5cc3)
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2f71ba8c-00c5-4c84-91df-d92592f81fee)
+
+OR: x=y | z;
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2eaeac7a-aa77-4319-8b2d-a6606c2323ae)
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/d5681a9e-5816-4e52-bbfc-3ba57139f239)
+
+XOR: x = y ^ z;
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/42866a9e-fdd2-4af2-8c81-c84b2cbc6863)
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/5ef84cf6-2bb3-423b-a9d2-7eae621e57f6)
+
+Dịch Bit: >> (Dịch phải) và << ( Dịch trái )
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2752e4fe-25bb-49dc-bef5-d36f5dc89033)
+
+
+
+
 
 
 
