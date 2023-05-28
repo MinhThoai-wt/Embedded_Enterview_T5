@@ -5,9 +5,9 @@
 Một khu vườn xinh đẹp nhờ có những hạt giống tốt lành, vì vậy hãy bắt đầu bằng cách gieo trồng những ý tưởng thú vị, sáng suốt và hữu ích nhất mà chúng ta có thể tìm thấy vào khu vườn tri thức của mình. 
 \- Tiago Forte | Building a second brain
 
-Chú thích [1] chú thích[^2].
+Chú thích [# 1] chú thích[^2].
 
-- [1]: chú thích 1
+- [# 1]: chú thích 1
 - [^2]: chú thích 2
 
 Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C++, Pascal, Java, C#…) sang ngôn ngữ đích (ngôn ngữ máy) để máy tính có thể hiểu và thực thi. Ngôn ngữ lập trình C là một ngôn ngữ dạng biên dịch. Chương trình được viết bằng C muốn chạy được trên máy tính phải trải qua một quá trình biên dịch để chuyển đổi từ dạng mã nguồn sang chương trình dạng mã thực thi. Quá trình được chia ra làm 4 giai đoạn chính:
