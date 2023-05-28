@@ -1,5 +1,5 @@
 # Embedded_Enterview_T5
-## Buổi 1. Complier
+# Buổi 1. Complier
 
 Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C++, Pascal, Java, C#…) sang ngôn ngữ đích (ngôn ngữ máy) để máy tính có thể hiểu và thực thi. Ngôn ngữ lập trình C là một ngôn ngữ dạng biên dịch. Chương trình được viết bằng C muốn chạy được trên máy tính phải trải qua một quá trình biên dịch để chuyển đổi từ dạng mã nguồn sang chương trình dạng mã thực thi. Quá trình được chia ra làm 4 giai đoạn chính:
 
@@ -179,6 +179,8 @@ XOR: x = y ^ z;
 Dịch Bit: >> (Dịch phải) và << ( Dịch trái )
 
 ![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2752e4fe-25bb-49dc-bef5-d36f5dc89033)
+
+repositoryname/newfoldername/filename
 
 
 
