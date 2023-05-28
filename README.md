@@ -180,8 +180,7 @@ Dịch Bit: >> (Dịch phải) và << ( Dịch trái )
 
 ![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2752e4fe-25bb-49dc-bef5-d36f5dc89033)
 
-repositoryname/newfoldername/filename
-
+mkdir git
 
 
 
