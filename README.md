@@ -8,8 +8,8 @@ Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C+
 •	Giai đoạn liên kết (Linker)
 
 1. Giai đoạn tiền xử lý – Preprocessor
-•	Nhận mã nguồn
-•	Xóa bỏ tất cả chú thích, comments của chương trình
+ Nhận mã nguồn
+ Xóa bỏ tất cả chú thích, comments của chương trình
 •	Chỉ thị tiền xử lý (bắt đầu bằng #) cũng được xử lý
 Ví dụ: chỉ thị #include cho phép ghép thêm mã chương trình của một tệp tiêu để vào mã nguồn cần dịch. Các hằng số được định nghĩa bằng #define sẽ được thay thế bằng giá trị cụ thể tại mỗi nơi sử dụng trong chương trình.
 2. Giai đoạn dịch Ngôn Ngữ Bậc Cao sang Assembly
