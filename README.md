@@ -95,13 +95,13 @@ Ví dụ: chỉ thị #include cho phép ghép thêm mã chương trình của m
 
 •	Bộ nhớ Heap được dùng để lưu trữ vùng nhớ cho những biến con trỏ được cấp phát động bởi các hàm malloc - calloc - realloc (trong C)
 
-•	Kích thước vùng nhớ
+•	Kích thước vùng nhớ:
 
 Stack: kích thước của bộ nhớ Stack là cố định, tùy thuộc vào từng hệ điều hành, ví dụ hệ điều hành Windows là 1 MB, hệ điều hành Linux là 8 MB (lưu ý là con số có thể khác tùy thuộc vào kiến trúc hệ điều hành của bạn).
 
 Heap: kích thước của bộ nhớ Heap là không cố định, có thể tăng giảm do đó đáp ứng được nhu cầu lưu trữ dữ liệu của chương trình.
 
-•	Đặc điểm vùng nhớ
+•	Đặc điểm vùng nhớ:
 
 Stack: vùng nhớ Stack được quản lý bởi hệ điều hành, dữ liệu được lưu trong Stack sẽ tự động hủy khi hàm thực hiện xong công việc của mình.
 
@@ -180,7 +180,105 @@ Dịch Bit: >> (Dịch phải) và << ( Dịch trái )
 
 ![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2752e4fe-25bb-49dc-bef5-d36f5dc89033)
 
-mkdir git
+# Buổi 5. Struct - Union
+
+Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về mặt lưu trữ trong bộ nhớ, chúng có sự khác biệt rõ rệt như sau:
+
+•	Struct: Dữ liệu của các thành viên của struct được lưu trữ ở những vùng nhớ khác nhau. Do đó kích thước của 1 struct tối thiểu bằng kích thước các thành viên cộng lại tại vì còn phụ thuộc vào bộ nhớ đệm (struct padding)
+
+•	Union : Dữ liệu các thành viên sẽ dùng chung 1 vùng nhớ. Kích thước của union được tính là kích thước lớn nhất của kiểu dữ liệu trong union. Việc thay đổi nội dung của 1 thành viên sẽ dẫn đến thay đổi nội dung của các thành viên khác.
+
+# Buổi 6. Static - Extern - Pointer
+ 
+• Biến Static gồm:
+ 
+– Biến static cục bộ: Khi 1 biến cục bộ được khai báo với từ khóa static. Biến sẽ chỉ được khởi tạo 1 lần duy nhất và tồn tại suốt thời gian chạy chương trình. Giá trị của nó không bị mất đi ngay cả khi kết thúc hàm. Tuy nhiên khác với biến toàn cục có thể gọi trong tất cả mọi nơi trong chương trình, thì biến cục bộ static chỉ có thể được gọi trong nội bộ hàm khởi tạo ra nó. Mỗi lần hàm được gọi, giá trị của biến chính bằng giá trị tại lần gần nhất hàm được gọi.
+
+– Biến static toàn cục: Biến toàn cục static sẽ chỉ có thể được truy cập và sử dụng trong File khai báo nó, các File khác không có cách nào truy cập được. 
+
+•  Extern dùng để gọi đến biến nằm ở file khác, thư viện khác
+
+• Khái niệm con trỏ: 
+
+– Bộ nhớ RAM chứa rất nhiều ô nhớ, mỗi ô nhớ có kích thước 1 byte.
+
+– Mỗi ô nhớ có địa chỉ duy nhất và địa chỉ này được đánh số từ 0 trở đi. Nếu CPU 32 bit thì có 2^32 địa chỉ có thể đánh cho các ô nhớ trong RAM.
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/e8b7aa97-ba69-4a42-a45c-696b93ba6fe0)
+
+– Khi khai báo biến, trình biên dịch dành riêng một vùng nhớ với địa chỉ duy nhất để lưu biến. Trình biên dịch có nhiệm vụ liên kết địa chỉ ô nhớ đó với tên biến. Khi gọi tên biến, nó sẽ truy xuất tự động đến ô nhớ đã liên kết với tên biến để lấy dữ liệu. Các bạn phải luôn phân biệt giữa địa chỉ bộ nhớ và dữ liệu được lưu trong đó.
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/b11dde3a-d176-49fe-aae6-324ff91c6b0b)
+
+– Địa chỉ của biến bản chất cũng là một con số thường được biểu diễn ở hệ cơ số 16. Ta có thể sử dụng con trỏ (pointer) để lưu địa chỉ của các biến.
+
+– Trong ngôn ngữ C/C++, con trỏ (pointer) là những biến lưu trữ địa chỉ bộ nhớ của những biến khác.
+
+![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/a3aa91b2-54f4-4ba3-ab2d-d41c1fb579d1)
+
+– Trong hình trên, biến var lưu giá trị 5 có địa chỉ là 0x61ff08. Biến pointVar là biến con trỏ, lưu địa chỉ của biến var (trỏ đến vùng nhớ của biến var), tức là nó lưu giá trị 0x61ff08.
+
+– Con trỏ NULL
+
+  + Con trỏ NULL là con trỏ lưu địa chỉ 0x00000000. Tức địa chỉ bộ nhớ 0, có ý nghĩa đặc biệt, cho biết con trỏ không trỏ vào đâu cả.
+
+     int *p2;//con trỏ chưa khởi tạo, vẫn trỏ đến một vùng nhớ nào đó không xác định
+     
+     int *p3 = NULL;//con trỏ null không trỏ đến vùng nhớ nào
+     
+ – Kích thước của con trỏ: ví dụ các khai báo con trỏ sau:
+  
+        char *p1;
+     
+        int *p2;
+     
+        float *p3;
+    
+        double *p4;
+     
+     Kích thước của các biến con trỏ có khác nhau không? Con trỏ chỉ lưu địa chỉ nên kích thước của mọi con trỏ là như nhau. Kích thước này phụ thuộc vào môi trường hệ thống máy tính:
+         
+         Môi trường Windows 32 bit: 4 bytes
+         Môi trường Windows 64 bit: 8 bytes
+
+– Một số lưu ý khi sử dụng con trỏ:
+     
+    + Khi khởi tạo con trỏ NULL
+    
+    + Chữ NULL phải viết hoa, viết thường null sẽ bị lỗi.
+    
+        int *p1 = NULL;//đúng
+    
+        int *p2 = null;//lỗi
+    
+    + Không nên sử dụng con trỏ khi chưa được khởi tạo
+
+    + Kết quả tính toán có thể sẽ phát sinh những lỗi không lường trước được nếu chưa khởi tạo con trỏ.
+
+     
+     
+    
+    
+
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
