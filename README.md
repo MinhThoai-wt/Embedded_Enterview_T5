@@ -39,4 +39,6 @@ Ví dụ: chỉ thị #include cho phép ghép thêm mã chương trình của m
 
 •	Mã máy của các hàm thư viện gọi trong chương trình cũng được đưa vào chương trình cuối trong giai đoạn này.
 
+![Ảnh chụp màn hình 2023-05-27 192617](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/442333e5-791a-4e2c-a701-8d5be17959e9)
+
 
