@@ -25,7 +25,7 @@ void shortList(uint8_t n, char array[])
             /*---------------------------------------------------------------------*/
         } 
         /*Do số cuối trong trong array không có khoảng trống phía sau nó nên 
-        dùng đoạn code này để tạo thêm số lượng cho so cuoi*/
+        dùng đoạn code này để tạo thêm số lượng cho số cuối*/
         if(i==(n-2)){ 
             array2[y]=n-x-1;
             array3[y]=n-array2[y]-1;
