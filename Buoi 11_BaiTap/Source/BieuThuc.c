@@ -12,9 +12,15 @@ int tinhGiaTriPhepToan(char* bieuThuc) {
 
     for (int i = 0; i < doDai; i++) {
         if (bieuThuc[i] >= '0' && bieuThuc[i] <= '9') {
-            toanHang = toanHang * 10 + (bieuThuc[i] - '0');   // Xây dựng giá trị của toán hạng
-        } 
+            toanHang = toanHang * 10 + (bieuThuc[i] - '0');   
+        /* Nhân 10: Khi ta đọc một chữ số từ biểu thức, ta cần thêm nó vào giá trị của toán hạng hiện tại. Để 
+        thực hiện việc này, chúng ta muốn dịch chuyển các chữ số hiện có trong toán hạng sang bên trái một vị trí*/
 
+         /*'0' có mã ASCII là 48, '1' là 49, '2' là 50, và cứ tiếp tục như vậy. Do đó, khi chúng 
+        ta trừ đi mã ASCII của '0' (48), chúng ta sẽ thu được giá trị số tương ứng với ký tự số đó.*/
+        }
+        
+        /*----------------Xử lí các phép toán (+, -, *, /) trong biểu thức------------------------------*/
         else if (bieuThuc[i] == '+' || bieuThuc[i] == '-' || bieuThuc[i] == '*' || bieuThuc[i] == '/') {
             if (phepToanTruoc == '+') {
                 ketQua += toanHang;   // Thực hiện phép toán cộng với toán hạng trước đó
@@ -25,11 +31,11 @@ int tinhGiaTriPhepToan(char* bieuThuc) {
             } else if (phepToanTruoc == '/') {
                 ketQua /= toanHang;   // Thực hiện phép toán chia cho toán hạng trước đó
             }
-
             toanHang = 0;           // Đặt lại giá trị của toán hạng về 0
             phepToanTruoc = bieuThuc[i];   // Cập nhật phép toán trước đó
-        } 
-        
+        }
+
+        /*------------------------------------------Xử lí vị trí dấu (  ) -------------------------------------*/
         else if (bieuThuc[i] == '(') {
             int j = i + 1;
             int dem = 1;
@@ -43,10 +49,11 @@ int tinhGiaTriPhepToan(char* bieuThuc) {
                 }
                 j++;
             }
-
+             
+            /*----------------------------Xử lí biểu thức con trong dấu ngoặc---------------------------*/
             char bieuThucCon[j - i - 2];
-            strncpy(bieuThucCon, bieuThuc + i + 1, j - i - 2);
-            bieuThucCon[j - i - 2] = '\0';
+            strncpy(bieuThucCon, bieuThuc + i + 1, j - i - 2); //sao chép một phần của chuỗi bieuThuc từ vị trí i + 1 cho đến vị trí j - 2 {kết thúc trước dấu đóng ngoặc ')' } vào mảng bieuThucCon
+            bieuThucCon[j - i - 2] = '\0'; //Ký tự kết thúc chuỗi '\0' được thêm vào cuối mảng bieuThucCon để đảm bảo nó là một chuỗi kí tự hợp lệ.
 
             int ketQuaCon = tinhGiaTriPhepToan(bieuThucCon);   // Đệ quy tính giá trị của biểu thức con
 
