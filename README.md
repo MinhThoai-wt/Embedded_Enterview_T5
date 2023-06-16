@@ -258,7 +258,7 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 # Buổi 9. C++ (Class)
 
 1. Class là gì?
-2. 
+   
 Class hay lớp là một mô tả trừu tượng (abstract) của nhóm các đối tượng (object) có cùng bản chất, ngược lại mỗi một đối tượng là một thể hiện cụ thể (instance) cho những mô tả trừu tượng đó. Một class trong C++ sẽ có các đặc điểm sau:
 
 •	Một class bao gồm các thành phần dữ liệu (thuộc tính hay property) và các phương thức (hàm thành phần hay method).
@@ -356,7 +356,7 @@ Phương thức cũng giống như một hàm bình thường.
 
  
 4. Constructor
-5. 
+   
 Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọi ngay khi chúng ta khởi tạo một object.
 
      class Person {
