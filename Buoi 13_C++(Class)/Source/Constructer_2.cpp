@@ -21,7 +21,7 @@ SinhVien::SinhVien(){
 };
 
 int main(){
-    SinhVien sv; //Do khai báo Method trùng tên với tên Class và Method có tham số vào nên object sv cần phải có tham số vào
+    SinhVien sv; 
     sv.hienThi();
 
     return 0;
