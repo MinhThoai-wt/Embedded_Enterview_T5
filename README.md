@@ -286,6 +286,11 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 </details>
 
 <details>
+  <summary> BUỔI 7. POINTER </summary>
+
+</details>
+
+<details>
   <summary> BUỔI 9. C++ </summary>
 
 # Buổi 9. C++ (Class)
