@@ -1,7 +1,7 @@
 # Embedded_Enterview_T5
 
 <details>
-  <summary> BUỔI 1 - COMPLIER </summary>
+  <summary> BUỔI 1. COMPLIER </summary>
  
 # Buổi 1. Complier
 
@@ -16,8 +16,6 @@ Complier là quá trình chuyển đổi từ ngôn ngữ bậc cao (NNBC) (C/C+
 •	Giai đoạn liên kết (Linker)
 
 ![Ảnh chụp màn hình 2023-05-27 192617](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/442333e5-791a-4e2c-a701-8d5be17959e9)
-
-
 
 
 
@@ -50,6 +48,9 @@ Ví dụ: chỉ thị #include cho phép ghép thêm mã chương trình của m
 •	Mã máy của các hàm thư viện gọi trong chương trình cũng được đưa vào chương trình cuối trong giai đoạn này.
 
 </details>
+
+<details>
+  <summary> BUỔI 2. PHÂN VÙNG BỘ NHỚ </summary>
 
 # Buổi 2. Phân vùng bộ nhớ
 
@@ -115,6 +116,11 @@ Heap: Vùng nhớ Heap được quản lý bởi lập trình viên (trong C ho�
 
 ![Ảnh chụp màn hình 2023-05-28 174924](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/76844c88-64db-47fd-bfba-2e082b405190)
 
+</details>
+
+<details>
+  <summary> BUỔI 3. MACRO_INLINE FUNCTION </summary>
+  
 # Buổi 3. Macro_ Inline Function
 
 1. Macro:
@@ -142,6 +148,8 @@ ban đầu trong stack trước khi gọi hàm và tiếp tục thực hiện ch
 
 •	Như có thể thấy, các này khiến chương trình tốn thời gian hơn là chỉ cần thay thế đoạn code đã được compile (cách của inline function)
 
+</details>
+
 4. So sánh
 
 •	Macro đơn giản là chỉ thay thế đoạn code macro vào chỗ được gọi trước khi được biên dịch
@@ -155,6 +163,9 @@ ban đầu trong stack trước khi gọi hàm và tiếp tục thực hiện ch
 •	Hàm inline cũng khiến code dài hơn, tuy nhiên nó làm giảm thời gian chạy chương trình
 
 •	Hàm bình thường sẽ phải gọi function call nên tốn thời gian hơn inline function nhưng code ngắn gọn hơn.
+
+<details>
+  <summary> BUỔI 4. THAO TÁC BIT </summary>
 
 # Buổi 4. Thao tác Bit
 
@@ -186,6 +197,11 @@ Dịch Bit: >> (Dịch phải) và << ( Dịch trái )
 
 ![image](https://github.com/MinhThoai-wt/Embedded_Enterview_T5/assets/133029271/2752e4fe-25bb-49dc-bef5-d36f5dc89033)
 
+</details>
+
+<details>
+  <summary> BUỔI 5. STRUCT _ UNION </summary>
+
 # Buổi 5. Struct - Union
 
 Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về mặt lưu trữ trong bộ nhớ, chúng có sự khác biệt rõ rệt như sau:
@@ -193,6 +209,11 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 •	Struct: Dữ liệu của các thành viên của struct được lưu trữ ở những vùng nhớ khác nhau. Do đó kích thước của 1 struct tối thiểu bằng kích thước các thành viên cộng lại tại vì còn phụ thuộc vào bộ nhớ đệm (struct padding)
 
 •	Union : Dữ liệu các thành viên sẽ dùng chung 1 vùng nhớ. Kích thước của union được tính là kích thước lớn nhất của kiểu dữ liệu trong union. Việc thay đổi nội dung của 1 thành viên sẽ dẫn đến thay đổi nội dung của các thành viên khác.
+
+</details>
+
+<details>
+  <summary> BUỔI 6. STATIC - EXTERN - POINTER </summary>
 
 # Buổi 6. Static - Extern - Pointer
  
@@ -260,6 +281,11 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
     + Không nên sử dụng con trỏ khi chưa được khởi tạo
 
     + Kết quả tính toán có thể sẽ phát sinh những lỗi không lường trước được nếu chưa khởi tạo con trỏ.
+
+</details>
+
+<details>
+  <summary> BUỔI 9. C++ </summary>
 
 # Buổi 9. C++ (Class)
 
@@ -386,6 +412,7 @@ Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọ
      }
    
      };
+     </details>
 
 
 
