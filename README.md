@@ -148,7 +148,6 @@ ban đầu trong stack trước khi gọi hàm và tiếp tục thực hiện ch
 
 •	Như có thể thấy, các này khiến chương trình tốn thời gian hơn là chỉ cần thay thế đoạn code đã được compile (cách của inline function)
 
-</details>
 
 4. So sánh
 
@@ -163,6 +162,8 @@ ban đầu trong stack trước khi gọi hàm và tiếp tục thực hiện ch
 •	Hàm inline cũng khiến code dài hơn, tuy nhiên nó làm giảm thời gian chạy chương trình
 
 •	Hàm bình thường sẽ phải gọi function call nên tốn thời gian hơn inline function nhưng code ngắn gọn hơn.
+
+</details>
 
 <details>
   <summary> BUỔI 4. THAO TÁC BIT </summary>
