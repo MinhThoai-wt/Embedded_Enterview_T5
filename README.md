@@ -291,9 +291,9 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 </details>
 
 <details>
-  <summary> BUỔI 9. C++ </summary>
+  <summary> BUỔI 9. CLASS (C++) </summary>
 
-# Buổi 9. C++ (Class)
+# Buổi 9. CLASS (C++)
 
 1. Class là gì?
    
@@ -418,8 +418,19 @@ Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọ
      }
    
      };
-     </details>
+</details>
 
+<details>
+  <summary> BUỔI 10. OPP </summary>
+# Buổi 10. OPP
+
+</details>
+
+<details>
+  <summary> BUỔI 11. VECTOR </summary>
+# Buổi 11. VECTOR
+
+</details>
 
 
 
