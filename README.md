@@ -478,6 +478,30 @@ Trong ví dụ trên, biến "x" được suy luận là kiểu "int" vì giá t
 
 Từ khóa "auto" giúp rút ngắn cú pháp khi khai báo biến và giúp tự động thích ứng với kiểu dữ liệu của giá trị được gán cho biến, tạo ra mã nguồn dễ đọc và linh hoạt hơn. Tuy nhiên, việc sử dụng "auto" cần cẩn thận để tránh gây nhầm lẫn trong mã nguồn và làm giảm tính rõ ràng của kiểu dữ liệu trong một số trường hợp.
 
+## Map trong C++
+
+Trong ngôn ngữ lập trình C++, kiểu dữ liệu "map" là một cấu trúc dữ liệu được cung cấp bởi thư viện chuẩn STL (Standard Template Library). "map" là một dạng cấu trúc dữ liệu ánh xạ (associative container), còn được gọi là "bảng băm" (hash table) hoặc "cấu trúc từ điển" (dictionary).
+
+Một "map" trong C++ là một tập hợp các cặp key-value (khóa-giá trị), trong đó mỗi khóa là duy nhất và liên kết với một giá trị. "map" tự động duy trì sự sắp xếp các khóa theo thứ tự tăng dần, do đó, việc truy cập các phần tử trong "map" sẽ được thực hiện một cách hiệu quả theo thứ tự này.
+
+Cú pháp chung để khai báo một "map" trong C++ như sau:
+
+        std::map<Key, Value> mapName;
+        Ở đây, "Key" là kiểu dữ liệu của khóa và "Value" là kiểu dữ liệu của giá trị.
+
+Các phép toán chính trên "map" bao gồm:
+
+  Thêm một cặp key-value vào "map" sử dụng toán tử [] hoặc hàm insert().
+  
+  Truy cập giá trị của một khóa bằng cách sử dụng toán tử [].
+  
+  Xóa một phần tử khỏi "map" bằng cách sử dụng hàm erase().
+  
+  Duyệt qua tất cả các phần tử trong "map" bằng vòng lặp for-each hoặc iterator.
+  
+  Với "map", bạn có thể tìm kiếm, thêm, truy cập và xóa các phần tử theo khóa một cách hiệu quả. Đặc điểm quan trọng của "map" là không cho phép khóa trùng lặp và tự động sắp 
+  xếp các phần tử theo khóa.
+
 </details>
 
 
