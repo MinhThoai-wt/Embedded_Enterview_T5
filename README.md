@@ -561,6 +561,8 @@ Hàm ảo là một phần không thể thiếu để thể hiện tính đa hì
 
 Hàm ảo chỉ khác hàm thành phần thông thường khi được gọi từ một con trỏ. Sử dụng hàm ảo khi muốn con trỏ đang trỏ tới đối tượng của lớp nào thì hàm thành phần của lớp đó sẽ được gọi mà không xem xét đến kiểu của con trỏ.
 
+</details>
+
 
 
 
