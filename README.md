@@ -491,16 +491,16 @@ Cú pháp chung để khai báo một "map" trong C++ như sau:
 
 Các phép toán chính trên "map" bao gồm:
 
-  Thêm một cặp key-value vào "map" sử dụng toán tử [] hoặc hàm insert().
+- Thêm một cặp key-value vào "map" sử dụng toán tử [] hoặc hàm insert().
   
-  Truy cập giá trị của một khóa bằng cách sử dụng toán tử [].
+- Truy cập giá trị của một khóa bằng cách sử dụng toán tử [].
   
-  Xóa một phần tử khỏi "map" bằng cách sử dụng hàm erase().
+- Xóa một phần tử khỏi "map" bằng cách sử dụng hàm erase().
   
-  Duyệt qua tất cả các phần tử trong "map" bằng vòng lặp for-each hoặc iterator.
+- Duyệt qua tất cả các phần tử trong "map" bằng vòng lặp for-each hoặc iterator.
   
-  Với "map", bạn có thể tìm kiếm, thêm, truy cập và xóa các phần tử theo khóa một cách hiệu quả. Đặc điểm quan trọng của "map" là không cho phép khóa trùng lặp và tự động sắp 
-  xếp các phần tử theo khóa.
+- Với "map", bạn có thể tìm kiếm, thêm, truy cập và xóa các phần tử theo khóa một cách hiệu quả. Đặc điểm quan trọng của "map" là không cho phép khóa trùng lặp và tự động sắp
+xếp các phần tử theo khóa.
 
 </details>
 
