@@ -422,13 +422,15 @@ Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọ
 
 <details>
   <summary> BUỔI 10. OPP </summary>
+  
 # Buổi 10. OPP
 
 </details>
 
 <details>
   <summary> BUỔI 11. VECTOR </summary>
-#Buổi 11. VECTOR
+  
+# Buổi 11. VECTOR
 
 ## Vector là gì?
 
@@ -459,6 +461,22 @@ ten-vector.assign(int size, int value);
 8.	swap(): Hàm được sử dụng để hoán đổi nội dung của một vector này với một vector khác cùng kiểu. Kích thước có thể khác nhau.
 
 9.	clear(): Hàm được sử dụng để loại bỏ tất cả các phần tử của vùng chứa vector.
+
+## Biến Auto
+
+Trong ngôn ngữ lập trình C++, từ khóa "auto" được sử dụng để khai báo biến với kiểu dữ liệu tự động. Khi sử dụng "auto", trình biên dịch sẽ suy luận kiểu dữ liệu của biến dựa trên giá trị được gán cho nó trong quá trình khởi tạo.
+
+Ví dụ, ta có một đoạn mã như sau:
+
+      cpp
+      Copy code
+      auto x = 10;   // x được suy luận là kiểu int
+      auto y = 3.14; // y được suy luận là kiểu double
+      auto z = "Hello, world!"; // z được suy luận là kiểu const char*
+
+Trong ví dụ trên, biến "x" được suy luận là kiểu "int" vì giá trị khởi tạo là một số nguyên. Biến "y" được suy luận là kiểu "double" vì giá trị khởi tạo là một số thực. Biến "z" được suy luận là một con trỏ "const char*" vì giá trị khởi tạo là một chuỗi ký tự.
+
+Từ khóa "auto" giúp rút ngắn cú pháp khi khai báo biến và giúp tự động thích ứng với kiểu dữ liệu của giá trị được gán cho biến, tạo ra mã nguồn dễ đọc và linh hoạt hơn. Tuy nhiên, việc sử dụng "auto" cần cẩn thận để tránh gây nhầm lẫn trong mã nguồn và làm giảm tính rõ ràng của kiểu dữ liệu trong một số trường hợp.
 
 </details>
 
