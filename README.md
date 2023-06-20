@@ -429,13 +429,14 @@ Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọ
 <details>
   <summary> BUỔI 11. VECTOR </summary>
 # Buổi 11. VECTOR
-Vector là gì?
+
+## Vector là gì?
 
 Giống như là mảng (array), vector trong C++ là một đối tượng dùng để chứa các đối tượng khác, và các đối tượng được chứa này cũng được lưu trữ một cách liên tiếp trong vector.
 
 Tuy nhiên, nếu như số lượng phần tử (size) của một mảng là cố định, thì ở vector, nó hoàn toàn có thể thay đổi trong suốt quá trình làm việc của chương trình
 
-Modifiers
+**Modifiers**
 
 1.	push_back(): Hàm đẩy một phần tử vào vị trí sau cùng của vector. Nếu kiểu của đối tượng được truyền dưới dạng tham số trong push_back() không giống với kiểu của vector thì sẽ bị ném ra.
 
