@@ -428,7 +428,7 @@ Constructor hay hàm dựng là một hàm đặc biệt, nó sẽ được gọ
 
 <details>
   <summary> BUỔI 11. VECTOR </summary>
-# Buổi 11. VECTOR
+#Buổi 11. VECTOR
 
 ## Vector là gì?
 
