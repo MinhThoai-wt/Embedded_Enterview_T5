@@ -216,7 +216,7 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 <details>
   <summary> BUỔI 6. STATIC - EXTERN - POINTER </summary>
 
-# Buổi 6. Static - Extern - Pointer
+# Buổi 6. Static - Extern
  
 ## Biến Static gồm:
  
@@ -233,7 +233,9 @@ Dùng để gọi đến biến nằm ở file khác, thư viện khác
 <details>
   <summary> BUỔI 7. POINTER </summary>
 
-• Khái niệm con trỏ: 
+# Buổi 7. Pointer
+
+## Khái niệm con trỏ: 
 
 – Bộ nhớ RAM chứa rất nhiều ô nhớ, mỗi ô nhớ có kích thước 1 byte.
 
@@ -290,10 +292,23 @@ Dùng để gọi đến biến nằm ở file khác, thư viện khác
 
     + Kết quả tính toán có thể sẽ phát sinh những lỗi không lường trước được nếu chưa khởi tạo con trỏ.
 
+## Con trỏ hàm
+
+Con trỏ hàm là một biến mà giá trị của nó là địa chỉ của một hàm. Bằng cách sử dụng con trỏ hàm, bạn có thể thực hiện các hoạt động như gọi hàm, truyền hàm như tham số cho các hàm khác và lưu trữ các hàm trong cấu trúc dữ liệu.
+
+Để khai báo một con trỏ hàm, bạn cần chỉ định kiểu dữ liệu của hàm mà con trỏ sẽ trỏ đến. Cú pháp khai báo con trỏ hàm như sau:
+
+        scss
+        Copy code
+        return_type (*pointer_name)(parameter_list);
+        Trong đó:
+
+  return_type là kiểu dữ liệu của giá trị trả về của hàm.
+  pointer_name là tên của con trỏ hàm.
+  parameter_list là danh sách tham số của hàm.
+
 </details>
 
-
-</details>
 
 <details>
   <summary> BUỔI 9. CLASS (C++) </summary>
