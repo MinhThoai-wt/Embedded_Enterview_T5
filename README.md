@@ -303,9 +303,19 @@ Con trỏ hàm là một biến mà giá trị của nó là địa chỉ của 
         return_type (*pointer_name)(parameter_list);
         Trong đó:
 
-  return_type là kiểu dữ liệu của giá trị trả về của hàm.
-  pointer_name là tên của con trỏ hàm.
-  parameter_list là danh sách tham số của hàm.
+  + return_type là kiểu dữ liệu của giá trị trả về của hàm.
+  
+  + pointer_name là tên của con trỏ hàm.
+  
+  + parameter_list là danh sách tham số của hàm.
+
+## Con trỏ "void"
+
+Trong ngôn ngữ lập trình C, con trỏ void (void pointer), còn được gọi là con trỏ không kiểu (generic pointer), là một loại con trỏ đặc biệt có thể trỏ đến bất kỳ kiểu dữ liệu nào. Một con trỏ void không biết đến kiểu dữ liệu của đối tượng mà nó trỏ đến. Điều này cho phép bạn truyền con trỏ void như một tham số cho các hàm hoặc lưu trữ địa chỉ của bất kỳ đối tượng nào trong một cấu trúc dữ liệu chung.
+
+Để khai báo một con trỏ void, bạn sử dụng từ khóa void như kiểu dữ liệu:
+
+        void *pointer_name;
 
 </details>
 
