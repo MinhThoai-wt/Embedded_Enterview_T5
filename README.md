@@ -218,13 +218,20 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 
 # Buổi 6. Static - Extern - Pointer
  
-• Biến Static gồm:
+## Biến Static gồm:
  
 – Biến static cục bộ: Khi 1 biến cục bộ được khai báo với từ khóa static. Biến sẽ chỉ được khởi tạo 1 lần duy nhất và tồn tại suốt thời gian chạy chương trình. Giá trị của nó không bị mất đi ngay cả khi kết thúc hàm. Tuy nhiên khác với biến toàn cục có thể gọi trong tất cả mọi nơi trong chương trình, thì biến cục bộ static chỉ có thể được gọi trong nội bộ hàm khởi tạo ra nó. Mỗi lần hàm được gọi, giá trị của biến chính bằng giá trị tại lần gần nhất hàm được gọi.
 
 – Biến static toàn cục: Biến toàn cục static sẽ chỉ có thể được truy cập và sử dụng trong File khai báo nó, các File khác không có cách nào truy cập được. 
 
-•  Extern dùng để gọi đến biến nằm ở file khác, thư viện khác
+## Extern 
+
+Dùng để gọi đến biến nằm ở file khác, thư viện khác
+
+</details>
+
+<details>
+  <summary> BUỔI 7. POINTER </summary>
 
 • Khái niệm con trỏ: 
 
@@ -285,8 +292,6 @@ Về mặt ý nghĩa, struct và union cơ bản giống nhau. Tuy nhiên, về 
 
 </details>
 
-<details>
-  <summary> BUỔI 7. POINTER </summary>
 
 </details>
 
