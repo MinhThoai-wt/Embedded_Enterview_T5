@@ -316,6 +316,14 @@ Trong ngôn ngữ lập trình C, con trỏ void (void pointer), còn được g
 Để khai báo một con trỏ void, bạn sử dụng từ khóa void như kiểu dữ liệu:
 
         void *pointer_name;
+        
+# Point to Point
+
+Trong ngôn ngữ lập trình C, "point to point" (con trỏ tới con trỏ) là khái niệm để mô tả việc sử dụng một con trỏ để trỏ tới một con trỏ khác. Nghĩa là, thay vì trực tiếp trỏ tới một giá trị, con trỏ thứ hai trỏ tới địa chỉ của con trỏ đầu tiên. Điều này cho phép ta truy cập đến giá trị mà con trỏ thứ hai đang trỏ đến.
+
+Để khai báo một con trỏ tới con trỏ trong C, ta sử dụng dấu sao * hai lần:
+
+          int **ptr_to_ptr;
 
 </details>
 
