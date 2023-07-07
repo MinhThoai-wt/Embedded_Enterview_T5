@@ -208,15 +208,6 @@ class ThongTinBan{ //Thông tin bàn
         void HienThi(TypeMonAn type_monAn);
 };
 
-/*void ThongTinBan::HienThi(TypeMonAn type_monAn){
-    TypeMonAn typeMonAn;
-    cout<<"So ban: "<<SO_BAN<<endl;
-    cout<<"Thai: "<<TRANG_THAI<<endl;
-    cout<<"ID: "<<ma.getID()<<endl;
-    cout<<"Ten mon: "<<ma.getTen()<<endl;
-    cout<<"Gia :"<ma.getGia()<<endl;
-}*/
-
 ThongTinBan::ThongTinBan(int soBan, bool trangThai){
     SO_BAN = soBan;
     TRANG_THAI = trangThai;
@@ -278,7 +269,7 @@ list<ThongTinBan> NhanVien::getData_NV(){
 
 int main(){
     bool a = false, n = false;
-    int LuaChon1, LuaChon2_1, LuaChon3_1, LuaChon2_2, LuaChon3_2; /*Nếu khai báo là int, vòng lặp while(b==false) sẽ lặp liên tục mà không
+    int LuaChon1, LuaChon2_1, LuaChon3_1, LuaChon2_2, LuaChon3_2;
     đi vào thực thi switch(LuaChon1)*/
     int key = 0;
     MonAn MA;
